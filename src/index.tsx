@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { hc } from "hono/client";
-import book from "./api/demo";
+import demo from "./api/demo";
 import { customLogger } from "./middlware/customLogger";
 
 const app = new Hono();
@@ -30,7 +30,7 @@ app.get("/", (c) => {
   );
 });
 
-const route = app.route("/book", book);
+const route = app.route("/demo", demo);
 
 export type AppType = typeof route;
 

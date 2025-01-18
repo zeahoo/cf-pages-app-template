@@ -14,9 +14,7 @@ export interface Book {
   author: string;
 }
 
-const demo = new Hono<{ Bindings: Env }>()
-
-demo.get("/", (c) => {
+const demo = new Hono<{ Bindings: Env }>().get("/", (c) => {
   return c.json({
     message: "This is a demo path",
   });
