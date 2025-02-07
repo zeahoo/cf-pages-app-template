@@ -1,5 +1,5 @@
 {
-  "name": "auto-book",
+  "name": "cf-pages-template",
   "type": "module",
   "scripts": {
     "dev": "vite",

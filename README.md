@@ -11,8 +11,9 @@
 
 ### wrangler.toml 配置
 
-1. 在 wrangler.toml 中第一行修改 name 为你想要的项目名称
-2. 配置 DATABASE_URL 。
+1. 在 package.json 中 修改 name 为你想要的应用名称
+2. 在 wrangler.toml 中第一行修改 name 为你想要的应用名称
+3. 配置 DATABASE_URL 。
 
 
 
